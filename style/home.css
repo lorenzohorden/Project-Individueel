@@ -1,0 +1,155 @@
+body {
+    background-color: white;
+    margin: 0;
+    /* width: 375px; */
+}
+
+header {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    height: 3.125em;
+    background-color: #7DCF8C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+header > img {
+    height: 80%;
+}
+
+#hamburger {
+    width: 2em;
+    height: auto;
+    margin-left: 1em;
+}
+
+#profiel {
+    margin-right: .5em;
+}
+
+main {
+    margin-top: 3.125em;
+    padding: 2em 2em 6em 2em;
+    color: #277636;
+    font-family: 'Poppins', 'Helvetica Neue', 'Arial';
+    background-image: url(../img/background.png);
+    background-size: contain;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+main > div {
+    background-color: #7DCF8C;
+    padding: 1em;
+    margin-top: 5em;
+}
+
+main > div > p {
+    font-size: .75em;
+    margin: 0;
+}
+
+main > div > h1 {
+    font-size: 1.125em;
+    margin: 0;
+}
+
+main > button {
+    position: relative;
+    background-color: #E3667C;
+    border: 0;
+    color: #962639;
+    font-size: .5em;
+    cursor: pointer;
+    float: left;
+}
+
+.people {
+    margin-top: 0;
+}
+
+.shops > h1 {
+    text-align: right;
+}
+
+.shopsbutton {
+    position: relative;
+    float: right;
+}
+
+.whoarewe > h1 {
+    text-align: center;
+}
+
+.whoarewebutton {
+    margin: 0 20%;
+    width: 60%;
+}
+
+footer {
+    background-color: rgba(125, 207, 140, .5);
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+#socials {
+    width: 15%;
+}
+
+#slogan {
+    width: 4em;
+}
+
+footer > div > p {
+    color: #277636;
+    font-family: 'Poppins', 'Helvetica Neue', 'Arial';
+    font-size: .5em;
+}
+
+footer > div > h1 {
+    color: #277636;
+    font-family: 'Poppins', 'Helvetica Neue', 'Arial';
+    margin-bottom: .5em;
+    font-size: .825em;
+}
+
+#socials > img {
+    height: 1.25em;
+}
+
+#footerlogo {
+    height: 2em;
+}
+
+#mailinglist {
+    width: 8em;
+}
+
+input {
+    padding: .5em;
+    font-size: .5em;
+}
+
+input[type=text] {
+    width: 8em;
+    border: 1px solid #277636;
+    background-color: #7DCF8C;
+    font-family: 'Poppins', 'Helvetica Neue', 'Arial';
+    color: #277636;
+}
+
+input[type=button] {
+    border: 0;
+    background-color: #7DCF8C;
+    font-family: 'Poppins', 'Helvetica Neue', 'Arial';
+    color: #277636;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: #277636;
+}
